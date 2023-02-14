@@ -1,0 +1,12 @@
+GET http://localhost:3000/todos/?priority=HIGH&todo=HTML&status=TO%20DO
+###
+
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+    "id": 10,
+    "todo": "xyz",
+    "priority": "LOW",
+    "status": "TO DO"
+}
